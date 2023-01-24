@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <title>Todo list</title>
+</head>
+
+<body>
+  <div class="todoList">
+    <h2>Todo List</h2>
+    <hr>
+    <div>
+      <p class="parrafo1">Nueva Tarea</p>
+      <input id="agregarTarea" required="Ingrese una tarea" type="">
+      <button id="btnTarea">Agregar</button>
+    </div>
+    <div class="flex">
+      <div class="resumen">
+        <span class="parrafo1" id="cuentaTareas">Total:</span>
+        <span class="parrafo2" id="cuentaTareasCompletadas">Realizadas:</span>
+      </div>
+      <div>
+        <div class="idTarea">
+        <p class="detalleList"><b>ID</b></p>
+        <p><b>Tarea</b></p>
+      </div>
+        <ul id="listaTareas"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

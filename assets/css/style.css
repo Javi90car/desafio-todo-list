@@ -1,0 +1,45 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.parrafo1{
+    margin-bottom: 0;
+    
+}
+
+.parrafo2{
+    margin-top: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoList{
+    background-color: gainsboro;
+    padding: 1rem;
+}
+
+#btnTarea{
+    background-color: #2F6919;
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.detalleList{
+    margin-left: 2rem;
+}
+
+.idTarea{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
